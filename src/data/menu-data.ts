@@ -71,57 +71,57 @@ const menu_data: DataType[] = [
     title: "About",
     link: "/about-us-v1",
     mega_menu: false,
-    // mega_menus: [
-    //   {
-    //     title: "About",
-    //     menus: [
-    //       { link: "/about-us-v1", title: "Learning Vision" },
-    //       { link: "/about-us-v5", title: "Fitness Philosophy" },
-    //       { link: "/about-us-v4", title: "Path of Knowledge" },
-    //       { link: "/about-us-v3", title: "Wellness Journey" },
-    //       { link: "/about-us-v2", title: "Culinary Story" },
-    //       { link: "/team", title: "Instructor" },
-    //     ],
-    //   },
-    //   {
-    //     title: "Inner Pages",
-    //     menus: [
-    //       { link: "/career", title: "Career" },
-    //       { link: "/career-details", title: "Career Details" },
-    //       { link: "/event-grid", title: "Event Grid" },
-    //       { link: "/event-list", title: "Event List" },
-    //       { link: "/event-details", title: "Event Details" },
-    //       { link: "/team-details", title: "Instructor Details" },
-    //     ],
-    //   },
-    //   {
-    //     title: "Inner Pages",
-    //     menus: [
-    //       { link: "/price", title: "Price" },
-    //       { link: "/faq", title: "Faq" },
-    //       { link: "/privacy-policy", title: "Privacy Policy" },
-    //       { link: "/404", title: "Error" },
-    //       { link: "/zoom-metting", title: "Zoom Metting" },
-    //       { link: "/sign-in", title: "Sign In" },
-    //     ],
-    //   },
-    //   {
-    //     title: "Shop Pages",
-    //     menus: [
-    //       { link: "/shop", title: "Shop" },
-    //       { link: "/shop-list", title: "Shop List" },
-    //       { link: "/shop-details", title: "Shop Details" },
-    //       { link: "/cart", title: "Cart" },
-    //       { link: "/checkout", title: "Checkout" },
-    //       { link: "/sign-up", title: "Sign Up" },
-    //     ],
-    //   },
-    // ],
+    mega_menus: [
+      // {
+      //   title: "About",
+      //   menus: [
+      //     { link: "/about-us-v1", title: "Learning Vision" },
+      //     { link: "/about-us-v5", title: "Fitness Philosophy" },
+      //     { link: "/about-us-v4", title: "Path of Knowledge" },
+      //     { link: "/about-us-v3", title: "Wellness Journey" },
+      //     { link: "/about-us-v2", title: "Culinary Story" },
+      //     { link: "/team", title: "Instructor" },
+      //   ],
+      // },
+      // {
+      //   title: "Inner Pages",
+      //   menus: [
+      //     { link: "/career", title: "Career" },
+      //     { link: "/career-details", title: "Career Details" },
+      //     { link: "/event-grid", title: "Event Grid" },
+      //     { link: "/event-list", title: "Event List" },
+      //     { link: "/event-details", title: "Event Details" },
+      //     { link: "/team-details", title: "Instructor Details" },
+      //   ],
+      // },
+      // {
+      //   title: "Inner Pages",
+      //   menus: [
+      //     { link: "/price", title: "Price" },
+      //     { link: "/faq", title: "Faq" },
+      //     { link: "/privacy-policy", title: "Privacy Policy" },
+      //     { link: "/404", title: "Error" },
+      //     { link: "/zoom-metting", title: "Zoom Metting" },
+      //     { link: "/sign-in", title: "Sign In" },
+      //   ],
+      // },
+      // {
+      //   title: "Shop Pages",
+      //   menus: [
+      //     { link: "/shop", title: "Shop" },
+      //     { link: "/shop-list", title: "Shop List" },
+      //     { link: "/shop-details", title: "Shop Details" },
+      //     { link: "/cart", title: "Cart" },
+      //     { link: "/checkout", title: "Checkout" },
+      //     { link: "/sign-up", title: "Sign Up" },
+      //   ],
+      // },
+    ],
   },
 
   {
     id: 3,
-    title: "Event",
+    title: "News & Event",
     link: "/event-grid",
     mega_menu: false,
     // mega_menus: [
@@ -163,9 +163,19 @@ const menu_data: DataType[] = [
     //   },
     // ],
   },
+{
+    id: 4,
+    title: "Academics",
+    link: "#",
+    has_dropdown: false,
+    // sub_menus: [
+    //   { link: "/contact-us", title: "Contact Us" },
+    //   { link: "/contact-me", title: "Contact Me" },
+    // ],
+  },
 
   {
-    id: 4,
+    id: 5,
     title: "Blog",
     link: "/blog-grid",
     has_dropdown: false,
@@ -177,9 +187,14 @@ const menu_data: DataType[] = [
     //   { link: "/blog-details-without-sidebar", title: "Blog Details No Sidebar" },
     // ],
   },
-
+{
+id: 6,
+title : "Gallery",
+link : "/gallery",
+has_dropdown : false,
+},
   {
-    id: 5,
+    id:7,
     title: "Contact",
     link: "/contact-us",
     has_dropdown: false,

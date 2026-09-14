@@ -85,7 +85,7 @@ export default function HeaderOne() {
 
         {/* <!-- header-area-start --> */}
         <div id="header-sticky" className={`it-header-area it-header-ptb p-relative ${sticky ? 'header-sticky' : ''}`}>
-          <div className="container">
+          <div className="container-fluid">
             <div className="">
               <div className="row align-items-center">
                 <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-5 col-6">
@@ -93,14 +93,14 @@ export default function HeaderOne() {
                     <Link to="/"><img src="assets/img/logo/logo-black.png" alt="" /></Link>
                   </div>
                 </div>
-                <div className="col-xxl-5 col-xl-5 d-none d-xl-block">
+                <div className="col-xxl-5 col-xl-6 d-none d-xl-block">
                   <div className="it-header-menu it-header-dropdown">
                     <nav className="it-menu-content">
                       <Navmenu />
                     </nav>
                   </div>
                 </div>
-                <div className="col-xxl-4 col-xl-4 col-lg-8 col-md-7 col-6">
+                <div className="col-xxl-4 col-xl-3 col-lg-8 col-md-7 col-6">
                   <div className="it-header-right-action d-flex justify-content-end align-items-center">
                     {/* <div className="it-header-search-wrap d-none d-lg-flex align-items-center">
                       <div className="it-header-categorie p-relative d-flex align-items-center">

@@ -61,7 +61,8 @@ export default function AboutThree() {
                     </svg>
                     About us
                   </span>
-                  <h4 className="it-section-title">Where Tradition Meets Innovation in Education </h4>
+                  <h4 className="it-section-title">Shaping Futures Through Tradition and Modern Education
+ </h4>
                 </div>
                 <div className="it-about-2-text">
                   <p className="mb-30">Since 1974, Shiva Shiksha Sadan has blended tradition with innovation to create meaningful, engaging learning experiences. We nurture curiosity, creativity, confidence, and strong values to help every child grow and thrive.
@@ -113,7 +114,7 @@ export default function AboutThree() {
                     <h6>Future-Ready  <br />  Skills</h6>
                   </div>
                 </div>
-                <Link to="/event-grid" className="it-btn-yellow theme-bg border-radius-100">
+                <Link to="/" className="it-btn-yellow theme-bg border-radius-100">
                   <span>
                     <span className="text-1">View Our Program</span>
                     <span className="text-2">View Our Program</span>

@@ -1,5 +1,5 @@
 import FooterFour from "@/layouts/footers/FooterFour";
-import HeaderInner from "@/layouts/headers/HeaderInner";
+// import HeaderInner from "@/layouts/headers/HeaderInner";
 import Wrapper from "@/layouts/Wrapper";
 import AboutOne from "@/components/about/AboutOne";
 import BrandOne from "@/components/brand/BrandOne";
@@ -10,13 +10,15 @@ import CountDownOne from "@/components/countdown/CountDownOne";
 import CtaFive from "@/components/cta/CtaFive";
 import TeamOne from "@/components/team/TeamOne";
 import TestimonialOne from "@/components/testimonial/TestimonialOne";
+import HeaderOne from "@/layouts/headers/HeaderOne";
 
 
 
 export default function Aboutusv1() {
   return (
     <Wrapper>
-      <HeaderInner />
+      <HeaderOne
+       />
       <main>
         <Breadcrumb title="About us v1" subtitle="About us v1" breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
         <AboutOne />

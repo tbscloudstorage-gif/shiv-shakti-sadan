@@ -2,15 +2,16 @@ import Breadcrumb from "@/components/breadcrumb/Breadcrumb";
 import EventGridArea from "@/components/event/EventGridArea";
 import NewsletterThree from "@/components/newsletter/NewsletterThree";
 import FooterThree from "@/layouts/footers/FooterThree";
-import HeaderInner from "@/layouts/headers/HeaderInner";
+// import HeaderInner from "@/layouts/headers/HeaderInner";
 import Wrapper from "@/layouts/Wrapper";
-import BackToTop from "@/components/common/BackToTop";;
+import BackToTop from "@/components/common/BackToTop";import HeaderOne from "@/layouts/headers/HeaderOne";
+;
 
 
 export default function EventGrid() {
   return (
     <Wrapper>
-      <HeaderInner />
+      <HeaderOne />
       <main>
         <Breadcrumb title="Event Grid" subtitle="Event Grid" breadcrumb_img="/assets/img/breadcrumb/event-1.png" />
         <EventGridArea />

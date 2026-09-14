@@ -176,7 +176,7 @@ Admin                    </span>
           <div className="row">
             <div className="col-12">
               <div className="it-blog-button text-center mt-30">
-                <Link to="/blog-grid" className="it-btn-yellow theme-bg border-radius-100">
+                <Link to="#" className="it-btn-yellow theme-bg border-radius-100">
                   <span>
                     <span className="text-1">See All Articles</span>
                     <span className="text-2">See All Articles</span>
