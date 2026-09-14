@@ -1,20 +1,20 @@
 
 
-const home_1 = "/assets/img/menu/home-1.jpg";
-const home_2 = "/assets/img/menu/home-2.jpg";
-const home_3 = "/assets/img/menu/home-3.jpg";
-const home_4 = "/assets/img/menu/home-4.jpg";
-const home_5 = "/assets/img/menu/home-5.jpg";
-const home_6 = "/assets/img/menu/home-6.jpg";
+// const home_1 = "/assets/img/menu/home-1.jpg";
+// const home_2 = "/assets/img/menu/home-2.jpg";
+// const home_3 = "/assets/img/menu/home-3.jpg";
+// const home_4 = "/assets/img/menu/home-4.jpg";
+// const home_5 = "/assets/img/menu/home-5.jpg";
+// const home_6 = "/assets/img/menu/home-6.jpg";
 
-const home_7 = "/assets/img/menu/home-14.jpg";
-const home_8 = "/assets/img/menu/home-9.jpg";
-const home_9 = "/assets/img/menu/home-8.jpg";
-const home_10 = "/assets/img/menu/home-12.jpg";
-const home_11 = "/assets/img/menu/home-10.jpg";
-const home_12 = "/assets/img/menu/home-11.jpg";
-const home_13 = "/assets/img/menu/home-13.jpg";
-const home_14 = "/assets/img/menu/home-7.jpg";
+// const home_7 = "/assets/img/menu/home-14.jpg";
+// const home_8 = "/assets/img/menu/home-9.jpg";
+// const home_9 = "/assets/img/menu/home-8.jpg";
+// const home_10 = "/assets/img/menu/home-12.jpg";
+// const home_11 = "/assets/img/menu/home-10.jpg";
+// const home_12 = "/assets/img/menu/home-11.jpg";
+// const home_13 = "/assets/img/menu/home-13.jpg";
+// const home_14 = "/assets/img/menu/home-7.jpg";
 
 
 interface DataType {
