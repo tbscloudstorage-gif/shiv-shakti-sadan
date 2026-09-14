@@ -31,13 +31,13 @@ export default function FaqEight() {
                         <button className="accordion-buttons " type="button" data-bs-toggle="collapse"
                           data-bs-target="#collapseOne2" aria-expanded="true"
                           aria-controls="collapseOne2">
-                          What types of music lessons do you offer?
+                        1. What makes Shiva Shiksha Sadan different from other schools?
                         </button>
                       </h4>
                       <div id="collapseOne2" className="accordion-collapse collapse show"
                         aria-labelledby="headingOne2" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+                          <p>Shiva Shiksha Sadan focuses on academic excellence, character development, creativity, discipline, and overall growth, helping students become confident and responsible individuals. </p>
                         </div>
                       </div>
                     </div>
@@ -46,13 +46,12 @@ export default function FaqEight() {
                         <button className="accordion-buttons collapsed" type="button"
                           data-bs-toggle="collapse" data-bs-target="#collapseTwo3" aria-expanded="false"
                           aria-controls="collapseTwo3">
-                          Are the lessons suitable for beginners?
-                        </button>
+2. What classes does Shiva Shiksha Sadan offer?                        </button>
                       </h4>
                       <div id="collapseTwo3" className="accordion-collapse collapse"
                         aria-labelledby="headingTwo3" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+                          <p>The school offers education across multiple grade levels, providing students with a structured learning environment suited to their age and academic needs. </p>
                         </div>
                       </div>
                     </div>
@@ -61,13 +60,12 @@ export default function FaqEight() {
                         <button className="accordion-buttons collapsed" type="button"
                           data-bs-toggle="collapse" data-bs-target="#collapseFour4"
                           aria-expanded="false" aria-controls="collapseFour4">
-                          How do I book a lesson?
-                        </button>
+3. How does Shiva Shiksha Sadan ensure a safe learning environment?                        </button>
                       </h4>
                       <div id="collapseFour4" className="accordion-collapse collapse"
                         aria-labelledby="headingFour4" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+                          <p>The school maintains a caring, disciplined, and supportive environment where students can learn comfortably, interact positively, and grow with confidence.</p>
                         </div>
                       </div>
                     </div>
@@ -76,13 +74,12 @@ export default function FaqEight() {
                         <button className="accordion-buttons collapsed" type="button"
                           data-bs-toggle="collapse" data-bs-target="#collapseFour5"
                           aria-expanded="false" aria-controls="collapseFour4">
-                          Are the classes live or pre-recorded?
-                        </button>
+4. How can I enquire about admission?                        </button>
                       </h4>
                       <div id="collapseFour5" className="accordion-collapse collapse"
                         aria-labelledby="headingFour5" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+                          <p> Parents can contact the school directly to learn about admission procedures, available classes, required documents, fee details, and other admission-related information. </p>
                         </div>
                       </div>
                     </div>

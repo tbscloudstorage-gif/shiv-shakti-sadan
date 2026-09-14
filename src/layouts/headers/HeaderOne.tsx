@@ -88,7 +88,7 @@ export default function HeaderOne() {
           <div className="container">
             <div className="">
               <div className="row align-items-center">
-                <div className="col-xxl-2 col-xl-2 col-lg-4 col-md-5 col-6">
+                <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-5 col-6">
                   <div className="it-header-logo">
                     <Link to="/"><img src="assets/img/logo/logo-black.png" alt="" /></Link>
                   </div>
@@ -100,9 +100,9 @@ export default function HeaderOne() {
                     </nav>
                   </div>
                 </div>
-                <div className="col-xxl-5 col-xl-5 col-lg-8 col-md-7 col-6">
+                <div className="col-xxl-4 col-xl-4 col-lg-8 col-md-7 col-6">
                   <div className="it-header-right-action d-flex justify-content-end align-items-center">
-                    <div className="it-header-search-wrap d-none d-lg-flex align-items-center">
+                    {/* <div className="it-header-search-wrap d-none d-lg-flex align-items-center">
                       <div className="it-header-categorie p-relative d-flex align-items-center">
                         <span>
                           <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -146,7 +146,7 @@ export default function HeaderOne() {
                           </svg>
                         </span>
                       </div>
-                    </div>
+                    </div> */}
                     <Link className="it-header-cart d-none d-xxl-block" to="/cart">
                       <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M20.0571 26H5.57143C2.50714 26 0 23.4929 0 20.4286V20.2429L0.557143 5.38571C0.65 2.32143 3.15714 0 6.12857 0H19.5C22.4714 0 24.9786 2.32143 25.0714 5.38571L25.6286 20.2429C25.7214 21.7286 25.1643 23.1214 24.1429 24.2357C23.1214 25.35 21.7286 26 20.2429 26C20.2429 26 20.15 26 20.0571 26ZM6.12857 1.85714C4.08571 1.85714 2.50714 3.43571 2.41429 5.38571L1.85714 20.4286C1.85714 22.4714 3.52857 24.1429 5.57143 24.1429H20.2429C21.2643 24.1429 22.1929 23.6786 22.8429 22.9357C23.4929 22.1929 23.8643 21.2643 23.8643 20.2429L23.3071 5.38571C23.2143 3.34286 21.6357 1.85714 19.5929 1.85714H6.12857Z" fill="#6C757D" />
@@ -156,8 +156,8 @@ export default function HeaderOne() {
                     </Link>
                     <Link to="/courses-with-filter" className="it-btn-yellow d-none d-md-flex">
                       <span>
-                        <span className="text-1">Apply Now</span>
-                        <span className="text-2">Apply Now</span>
+                        <span className="text-1">Connect With Us</span>
+                        <span className="text-2">Connect With Us</span>
                       </span>
                       <i>
                         <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">

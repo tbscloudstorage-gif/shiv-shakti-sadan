@@ -68,9 +68,10 @@ import Contactme from "@/components/contacts/contact-me";
 import ErrorPage from "@/components/inner-pages/error";
 
 const router = createBrowserRouter([
-  { path: "/", element: <GeneralEducation /> },
+    { path: "/", element: <University /> },
+
   { path: "/online-courses", element: <OnlineCourses /> },
-  { path: "/university", element: <University /> },
+  { path: "/education", element:  <GeneralEducation /> },
   { path: "/kindergarten", element: <Kindergarten /> },
   { path: "/language-academy", element: <LanguageAcademy /> },
   { path: "/cookup-academy", element: <CookupAcademy /> },

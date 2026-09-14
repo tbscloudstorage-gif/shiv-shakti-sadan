@@ -52,7 +52,7 @@ export default function TestimonialThree() {
                       <div className="row align-items-center">
                         <div className="col-lg-5 col-md-5">
                           <div className="it-testimonial-thumb border-radius-20">
-                            <img src="assets/img/testimonial/thumb-1-4.jpg" alt="" />
+                            <img src="assets/img/testimonial/isha.png" alt="" />
                           </div>
                         </div>
                         <div className="col-lg-7 col-md-7">

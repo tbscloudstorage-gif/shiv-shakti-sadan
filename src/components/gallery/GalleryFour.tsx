@@ -6,7 +6,7 @@ export default function GalleryFour() {
       {/* <!-- gallery-area-start --> */}
       <div className="it-gallery-area z-index-1 gray-bg pt-130 pb-130" style={{backgroundImage: `url(/assets/img/shape/gallary-bg-4-1.png)`}}>
         <img className="it-gallery-shape-1" src="assets/img/shape/gallary-4-2.png" alt="" />
-      {location.pathname !== "/university" && (
+      {location.pathname !== "/" && (
         <>
         <img className="it-gallery-shape-2" src="assets/img/shape/gallary-4-1.png" alt="" /> 
         <img className="it-gallery-shape-3" src="assets/img/shape/gallary-4-3.png" alt="" />
@@ -16,7 +16,7 @@ export default function GalleryFour() {
           <div className="row">
             <div className="col-12">
               <div className="it-contact-section-title-box text-center mb-65">
-                      {location.pathname !== "/university" && 
+                      {location.pathname !== "/" && 
 
                 <span className="it-section-subtitle-2">Gallery</span> }
                 <h4 className="it-section-title">Check Our Gallery

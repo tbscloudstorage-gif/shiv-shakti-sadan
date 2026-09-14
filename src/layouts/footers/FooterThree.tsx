@@ -44,11 +44,11 @@ export default function FooterThree() {
                     <h4 className="it-footer-widget-title">Useful Links</h4>
                     <div className="it-footer-widget-menu">
                       <ul>
-                        <li><a href="#">Marketplace</a></li>
-                        <li><a href="#">kindergarten</a></li>
-                        <li><a href="#">University</a></li>
-                        <li><a href="#">GYM Coaching</a></li>
-                        <li><a href="#">Cooking</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about-us-v1">About</a></li>
+                        <li><a href="/event-grid">Event</a></li>
+                        <li><a href="blog-grid">Blog</a></li>
+                        <li><a href="contact-us">Contact</a></li>
                       </ul>
                     </div>
                   </div>
@@ -56,14 +56,14 @@ export default function FooterThree() {
                 <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50 wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".7s">
                   <div className="it-footer-widget it-footer-col-1-3">
-                    <h4 className="it-footer-widget-title">Our Company</h4>
+                    <h4 className="it-footer-widget-title">Our Policies</h4>
                     <div className="it-footer-widget-menu">
                       <ul>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Become Teacher</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/terms-conditions">Terms & Conditions</a></li>
+                        {/* <li><a href="#">Blog</a></li>
                         <li><a href="#">Instructor</a></li>
-                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Events</a></li> */}
                       </ul>
                     </div>
                   </div>
@@ -116,7 +116,7 @@ export default function FooterThree() {
               <div className="row align-items-center">
                 <div className="col-12">
                   <div className="it-copyright-left style-2 text-center">
-                    <p className="mb-0">Copyright © {new Date().getFullYear()} <a href="#">Ordianit</a> All Rights Reserved</p>
+                    <p className="mb-0">Copyright © {new Date().getFullYear()} <a href="#">Shiva Shiksha Sadan</a> All Rights Reserved</p>
                   </div>
                 </div>
               </div>
