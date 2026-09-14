@@ -41,7 +41,7 @@ export default function OffCanvas({ offCanvasOpen, setOffCanvasOpen }: OffCanvas
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Email</span>
-                <a href="mailto:hello@educeet.com" className="border-line">hello@educeet.com</a>
+                <a href="mailto:info@shivashikshasadan.com" className="border-line">info@shivashikshasadan.com</a>
               </div>
             </div>
             <div className="it-info-wrapper mb-20 d-flex align-items-center">
@@ -50,7 +50,7 @@ export default function OffCanvas({ offCanvasOpen, setOffCanvasOpen }: OffCanvas
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Phone</span>
-                <a href="tel:(00)45611227890">(00) 456 1122 7890</a>
+                <a href="tel:0130-2242451">0130-2242451 / 2253385</a>
               </div>
             </div>
             <div className="it-info-wrapper mb-20 d-flex align-items-center">
@@ -59,8 +59,8 @@ export default function OffCanvas({ offCanvasOpen, setOffCanvasOpen }: OffCanvas
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Location</span>
-                <a href="htits://www.google.com/maps/@37.4801311,22.8928877,3z" target="_blank">Riverside 255,
-                  San Francisco, USA </a>
+                <a href="https://maps.app.goo.gl/QHimyUV1UwvKJK2e9" target="_blank">Dev Nagar , Sonipat -131001, Haryana , India
+ </a>
               </div>
             </div>
           </div>
