@@ -1,0 +1,34 @@
+import FooterFour from "@/layouts/footers/FooterFour";
+import HeaderInner from "@/layouts/headers/HeaderInner";
+import Wrapper from "@/layouts/Wrapper";
+import AboutOne from "@/components/about/AboutOne";
+import BrandOne from "@/components/brand/BrandOne";
+import Breadcrumb from "@/components/breadcrumb/Breadcrumb";
+import ChooseFive from "@/components/choose/ChooseFive";
+import BackToTop from "@/components/common/BackToTop";
+import CountDownOne from "@/components/countdown/CountDownOne";
+import CtaFive from "@/components/cta/CtaFive";
+import TeamOne from "@/components/team/TeamOne";
+import TestimonialOne from "@/components/testimonial/TestimonialOne";
+
+
+
+export default function Aboutusv1() {
+  return (
+    <Wrapper>
+      <HeaderInner />
+      <main>
+        <Breadcrumb title="About us v1" subtitle="About us v1" breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
+        <AboutOne />
+        <CountDownOne />
+        <ChooseFive style_2={true} />
+        <TestimonialOne style_2={true} />
+        <BrandOne style_2={true} />
+        <TeamOne style_2={true} />
+        <CtaFive />
+      </main>
+      <FooterFour />
+      <BackToTop />
+    </Wrapper>
+  )
+}
