@@ -6,25 +6,32 @@ import { useState } from "react";
 
 export default function ContactFormOne() {
     const [result, setResult] = useState("");
- const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
-    formData.append("access_key", "2263fe21-46f8-4e2b-93af-f7406e5d8a64");
+ const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  event.preventDefault();
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData
-    });
+  setResult("Sending....");
 
-    const data = await response.json();
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      event.target.reset();
-    } else {
-      setResult("Error");
-    }
-  };
+  const formData = new FormData(event.currentTarget);
+
+  formData.append(
+    "access_key",
+    "2263fe21-46f8-4e2b-93af-f7406e5d8a64"
+  );
+
+  const response = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    body: formData,
+  });
+
+  const data = await response.json();
+
+  if (data.success) {
+    setResult("Form Submitted Successfully");
+    event.currentTarget.reset();
+  } else {
+    setResult("Error");
+  }
+};
 
   // const handleSubmit = (e: React.FormEvent) => {
   //   e.preventDefault();

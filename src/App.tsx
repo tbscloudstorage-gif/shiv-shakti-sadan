@@ -49,7 +49,7 @@ import Coursesv4 from "@/components/inner-pages/courses/courses-v4";
 import Coursesv5 from "@/components/inner-pages/courses/courses-v5";
 import Coursesv6 from "@/components/inner-pages/courses/courses-v6";
 import Coursesv7 from "@/components/inner-pages/courses/courses-v7";
-import GalleryPage  from "@/components/GalleryPage"
+import GalleryPage  from "@/components/GalleryPage/index.tsx"
 import Coursesv8 from "@/components/inner-pages/courses/courses-v8";
 import CoursesListSidebar from "@/components/inner-pages/courses/courses-list-sidebar";
 import CoursesOpenFilter from "@/components/inner-pages/courses/courses-open-filter";
