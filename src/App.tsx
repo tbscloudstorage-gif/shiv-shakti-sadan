@@ -49,6 +49,7 @@ import Coursesv4 from "@/components/inner-pages/courses/courses-v4";
 import Coursesv5 from "@/components/inner-pages/courses/courses-v5";
 import Coursesv6 from "@/components/inner-pages/courses/courses-v6";
 import Coursesv7 from "@/components/inner-pages/courses/courses-v7";
+import GalleryPage  from "@/components/GalleryPage"
 import Coursesv8 from "@/components/inner-pages/courses/courses-v8";
 import CoursesListSidebar from "@/components/inner-pages/courses/courses-list-sidebar";
 import CoursesOpenFilter from "@/components/inner-pages/courses/courses-open-filter";
@@ -76,6 +77,7 @@ const router = createBrowserRouter([
   { path: "/language-academy", element: <LanguageAcademy /> },
   { path: "/cookup-academy", element: <CookupAcademy /> },
   { path: "/books-shop", element: <BooksShop /> },
+  {path : "/gallery" , element : <GalleryPage/>},
   { path: "/music-platform", element: <MusicPlatform /> },
   { path: "/quran-learning", element: <QuranLearning /> },
   { path: "/instructor-showcase", element: <InstructorShowcase /> },

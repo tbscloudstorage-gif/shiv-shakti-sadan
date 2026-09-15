@@ -33,7 +33,7 @@ export default function AboutOne() {
                     </div>
                     <div className="it-about-experience-box mb-20 d-flex align-items-center">
                       <h5><i className="purecounter" data-purecounter-duration="1" data-purecounter-end="25">
-                        <Count number={25} text="+" />
+                        <Count number={50} text="+" />
 
                       </i></h5>
                       <span>Years of <br />Experience</span>

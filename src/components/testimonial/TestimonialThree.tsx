@@ -63,14 +63,13 @@ export default function TestimonialThree() {
                               </svg>
                             </div>
                             <div className="it-testimonial-text">
-                              <h5 className="mb-30">“A Wonderful Learning Environment” <br/>
-
-We are very happy with the positive learning environment at Shiva Shiksha Sadan. The teachers are supportive, caring, and genuinely focused on helping children grow academically and personally.</h5>
+                              <h5 className="mb-30">The school encourages our child to explore new ideas, participate actively, and develop a positive attitude toward learning.
+</h5>
                             </div>
                             <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
                               <div className="it-testimonial-avatar-info">
                                 <h5 className="it-testimonial-avatar-name">Isha Singh</h5>
-                                <span>Housewife</span>
+                                <span>Mother of Arohi (Class 10th)</span>
                               </div>
                                
                             </div>
@@ -96,14 +95,12 @@ We are very happy with the positive learning environment at Shiva Shiksha Sadan.
                               </svg>
                             </div>
                             <div className="it-testimonial-text">
-                              <h5 className="mb-30">“More Than Just Academics” <br/>
-
-The school gives equal importance to studies, activities, sports, and values. We have seen our child become more confident, responsible, and independent over time.</h5>
+                              <h5 className="mb-30">We are grateful for the supportive teachers and enriching environment that help our child grow both personally and academically.</h5>
                             </div>
                             <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
                               <div className="it-testimonial-avatar-info">
                                 <h5 className="it-testimonial-avatar-name">Vivek Rai</h5>
-                                <span>Business Owner</span>
+                                <span>Father of Krishiv (Class 3rd)</span>
                               </div>
                                
                             </div>
@@ -129,14 +126,12 @@ The school gives equal importance to studies, activities, sports, and values. We
                               </svg>
                             </div>
                             <div className="it-testimonial-text">
-                              <h5 className="mb-30">“Caring Teachers and Great Guidance” <br/>
-
-The teachers understand every child’s strengths and encourage them to do their best. Their guidance and constant support have made a meaningful difference in our child’s development.</h5>
+                              <h5 className="mb-30">It is wonderful to see our child becoming more confident, curious, and responsible with every passing year.</h5>
                             </div>
                             <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
                               <div className="it-testimonial-avatar-info">
                                 <h5 className="it-testimonial-avatar-name">Anubhav Pratap Singh</h5>
-                                <span>Software Engineer</span>
+                                <span>Father of Mahi Singh (Class 9th)</span>
                               </div>
                                
                             </div>
@@ -162,14 +157,14 @@ The teachers understand every child’s strengths and encourage them to do their
                               </svg>
                             </div>
                             <div className="it-testimonial-text">
-                              <h5 className="mb-30">“A School We Truly Trust” <br/>
-
-Choosing Shiva Shiksha Sadan has been a wonderful decision for our family. The school provides a balanced education while creating an atmosphere where children feel encouraged, valued, and motivated to succeed.</h5>
+                              <h5 className="mb-30">
+Shiva Shiksha Sadan provides a caring environment where our child feels supported, confident, and motivated to learn every day.
+</h5>
                             </div>
                             <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
                               <div className="it-testimonial-avatar-info">
                                 <h5 className="it-testimonial-avatar-name">Ankit Gupta </h5>
-                                <span>Journlist</span>
+                                <span>Parent of Vedhansh Gupta (LKG)</span>
                               </div>
                                
                             </div>
@@ -195,14 +190,12 @@ Choosing Shiva Shiksha Sadan has been a wonderful decision for our family. The s
                               </svg>
                             </div>
                             <div className="it-testimonial-text">
-                              <h5 className="mb-30">“A Positive Experience for Our Family” <br/>
-
-Our experience with Shiva Shiksha Sadan has been truly positive. The dedicated teachers, supportive environment, and focus on overall development make it a school we are proud to be associated with.</h5>
-                            </div>
+                              <h5 className="mb-30">The teachers are dedicated and supportive, helping our child grow academically while developing strong values and confidence.
+</h5>                            </div>
                             <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
                               <div className="it-testimonial-avatar-info">
-                                <h5 className="it-testimonial-avatar-name">Aman Garg</h5>
-                                <span>Pilot</span>
+                                <h5 className="it-testimonial-avatar-name">Ravi Garg</h5>
+                                <span>Father of Aman Garg (Class 8th)</span>
                               </div>
                                
                             </div>
@@ -228,14 +221,14 @@ Our experience with Shiva Shiksha Sadan has been truly positive. The dedicated t
                               </svg>
                             </div>
                             <div className="it-testimonial-text">
-                              <h5 className="mb-30">“Encouraging Every Child to Grow” <br/>
-
-We appreciate how the school encourages students to explore their abilities and learn with confidence. The combination of academics, activities, and personal guidance creates a wonderful foundation for their future.</h5>
+                              <h5 className="mb-30"> 
+ We appreciate the balanced approach to education, where academics, activities, and character development go hand in hand.
+</h5>
                             </div>
                             <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
                               <div className="it-testimonial-avatar-info">
                                 <h5 className="it-testimonial-avatar-name">Monica Sharma</h5>
-                                <span>HR Admin</span>
+                                <span>Mother of  Ruhi Sharma (Class 3rd)</span>
                               </div>
                                
                             </div>

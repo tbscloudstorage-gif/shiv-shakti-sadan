@@ -49,7 +49,7 @@ export default function CampusThree() {
             <div className="col-xl-4 col-lg-4 col-md-6 mb-35 wow itfadeUp" data-wow-duration=".9s"
               data-wow-delay=".5s">
               <div className="it-campus-item p-relative">
-                <h4 className="it-campus-title"><Link className="border-line" to="/about-us-v3">Self-Reliance
+                <h4 className="it-campus-title"><Link className="border-line" to="/about-us-v3">Build Confidence
 </Link></h4>
                 <div className="it-campus-thumb">
                   <img src="assets/img/campus/campus-3-2.jpg" alt="" />

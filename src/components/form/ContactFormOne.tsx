@@ -1,24 +1,46 @@
  
 
 import NiceSelect from "@/ui/NiceSelect";
+import { useState } from "react";
 
 
 export default function ContactFormOne() {
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Contact form submitted');
+    const [result, setResult] = useState("");
+ const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+    formData.append("access_key", "2263fe21-46f8-4e2b-93af-f7406e5d8a64");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      setResult("Error");
+    }
   };
+
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   console.log('Contact form submitted');
+  // };
   const selectHandler = (e: any) => { return e; };
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={onSubmit}>
         <div className="it-signup-input-wrap">
           <div className="row">
             <div className="col-md-6">
               <div className="it-signup-input mb-40">
                 <label>First Name</label>
-                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Name"   />
               </div>
             </div>
             <div className="col-md-6">
@@ -80,6 +102,8 @@ export default function ContactFormOne() {
             </button>
           </div>
         </div>
+              <span>{result}</span>
+
       </form>
     </>
   )

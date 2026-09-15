@@ -13,6 +13,9 @@ import GalleryFour from "@/components/gallery/GalleryFour";
 import HeroFour from "@/components/hero/HeroFour";
 import NewsletterFour from "@/components/newsletter/NewsletterFour";
 import TeamFour from "@/components/team/TeamFour";
+import GallerySeven from "@/components/gallery/GallerySeven";
+import GalleryThirteen from "@/components/gallery/GalleryThirteen";
+import GalleryTwelve from "@/components/gallery/GalleryTwelve";
 
 export default function Kindergarten() {
   return (
@@ -28,6 +31,10 @@ export default function Kindergarten() {
         <TeamFour />
         <ContactFour />
         <GalleryFour />
+        <GallerySeven/>
+        <GalleryThirteen/>
+        <GalleryTwelve/>
+        
         <BlogFour />
         <NewsletterFour />
       </main>

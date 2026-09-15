@@ -49,8 +49,8 @@ export default function FeaturesTwelve() {
                 <p>A peer mentorship program pairing senior students with juniors to build confidence in technology and everyday problem-solving.</p>
                 <Link to="/event-details" className="it-btn-yellow">
                   <span>
-                    <span className="text-1">Details More</span>
-                    <span className="text-2">Details More</span>
+                    <span className="text-1">View More</span>
+                    <span className="text-2">View More</span>
                   </span>
                   <i>
                     <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,8 +85,8 @@ export default function FeaturesTwelve() {
                 <p>An annual celebration of science and culture, blending astronomy, tradition, and creativity through hands-on discovery and performance.</p>
                 <Link to="/event-details" className="it-btn-yellow">
                   <span>
-                    <span className="text-1">Details More</span>
-                    <span className="text-2">Details More</span>
+                    <span className="text-1">View More</span>
+                    <span className="text-2">View More</span>
                   </span>
                   <i>
                     <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -118,8 +118,8 @@ export default function FeaturesTwelve() {
                 <p>Structured coaching across multiple sports disciplines, building teamwork, discipline, and fitness alongside academic life.</p>
                 <Link to="/event-details" className="it-btn-yellow">
                   <span>
-                    <span className="text-1">Details More</span>
-                    <span className="text-2">Details More</span>
+                    <span className="text-1">View More</span>
+                    <span className="text-2">View More</span>
                   </span>
                   <i>
                     <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -145,8 +145,8 @@ export default function FeaturesTwelve() {
                 <p>A wide range of interest-based clubs where students explore passions beyond the classroom, from debate to design.</p>
                 <Link to="/event-details" className="it-btn-yellow">
                   <span>
-                    <span className="text-1">Details More</span>
-                    <span className="text-2">Details More</span>
+                    <span className="text-1">View More</span>
+                    <span className="text-2">View More</span>
                   </span>
                   <i>
                     <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -173,8 +173,8 @@ export default function FeaturesTwelve() {
                 <p>A heritage and leadership initiative inspired by stories of resilience, encouraging students to dream boldly and lead with purpose.</p>
                 <Link to="/event-details" className="it-btn-yellow">
                   <span>
-                    <span className="text-1">Details More</span>
-                    <span className="text-2">Details More</span>
+                    <span className="text-1">View More</span>
+                    <span className="text-2">View More</span>
                   </span>
                   <i>
                     <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -201,8 +201,8 @@ export default function FeaturesTwelve() {
                 <p>An art and expression platform where students showcase creativity and voice through visual art, speech, and performance.</p>
                 <Link to="/event-details" className="it-btn-yellow">
                   <span>
-                    <span className="text-1">Details More</span>
-                    <span className="text-2">Details More</span>
+                    <span className="text-1">View More</span>
+                    <span className="text-2">View More</span>
                   </span>
                   <i>
                     <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">

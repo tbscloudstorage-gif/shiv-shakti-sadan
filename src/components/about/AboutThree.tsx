@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import VideoPopup from "@/components/modals/VideoPopup";
+// import VideoPopup from "@/components/modals/VideoPopup";
 
 
 export default function AboutThree() {
@@ -7,7 +7,7 @@ export default function AboutThree() {
     <>
       {/* <!-- about-area-start --> */}
       <section className="it-about-2-area z-index-1 pt-130 pb-130">
-        <img className="it-about-2-shape-3" src="assets/img/shape/about-3-3.png" alt="" />
+        {/* <img className="it-about-2-shape-3" src="assets/img/shape/about-3-3.png" alt="" /> */}
         <img className="it-about-2-shape-4" src="assets/img/shape/about-3-4.png" alt="" />
         <div className="container">
           <div className="row align-items-center">
@@ -19,14 +19,12 @@ export default function AboutThree() {
                 </div>
                 <div className="it-about-2-thumb-sm thumb-overlay border-radius-20 z-index-1">
                   <img src="assets/img/about/about-2-2.jpg" alt="" />
-                  <VideoPopup>
-                    <a className="it-about-thumb-icon pulse-white popup-video" style={{ cursor: "pointer" }}
+                    {/* <a className="it-about-thumb-icon pulse-white popup-video" style={{ cursor: "pointer" }}
                     >
                       <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.5 7.93782C11.1667 7.55292 11.1667 6.59067 10.5 6.20577L1.5 1.00962C0.833333 0.624718 0 1.10584 0 1.87564V12.2679C0 13.0378 0.833333 13.5189 1.5 13.134L10.5 7.93782Z" fill="#F8C62F" />
                       </svg>
-                    </a>
-                  </VideoPopup>
+                    </a> */}
                 </div>
                 <div className="it-about-experience-box d-flex align-items-center">
                   <div className="it-about-experience-icon mr-20">
