@@ -20,9 +20,9 @@ export default function CountDownOne() {
                   </div>
                   <div className="it-funfact-content">
                      <h6 className="it-funfact-number"><i className="purecounter" data-purecounter-duration="1" data-purecounter-end="1090">
-                      <Count number={1090} text="+" />
+                      <Count number={25} text="+" />
                       </i></h6>
-                     <span>Our Online Courses</span>
+                     <span>Years of Academic Excellence</span>
                   </div>
                </div>
             </div>
@@ -48,7 +48,7 @@ export default function CountDownOne() {
                      <h6 className="it-funfact-number"><i className="purecounter" data-purecounter-duration="1" data-purecounter-end="120">
                       <Count number={120} text="+" />
                       </i></h6>
-                     <span>Our Instructors</span>
+                     <span>Dedicated Teachers &<br/> Staff</span>
                   </div>
                </div>
             </div>
@@ -69,9 +69,9 @@ export default function CountDownOne() {
                   </div>
                   <div className="it-funfact-content">
                      <h6 className="it-funfact-number"><i className="purecounter" data-purecounter-duration="1" data-purecounter-end="120">
-                      <Count number={145} text="+" />
+                      <Count number={50} text="+" />
                       </i></h6>
-                     <span>Total Video Lessons</span>
+                     <span>Clubs, Sports & <br/> Activities</span>
                   </div>
                </div>
             </div>
@@ -88,7 +88,7 @@ export default function CountDownOne() {
                      <h6 className="it-funfact-number"><i className="purecounter" data-purecounter-duration="1" data-purecounter-end="6000">
                       <Count number={6000} text="+" />
                       </i></h6>
-                     <span>Total Students Enrolled</span>
+                     <span>Total Students <br/> Enrolled</span>
                   </div>
                </div>
             </div>

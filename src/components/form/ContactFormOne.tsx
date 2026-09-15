@@ -41,15 +41,15 @@ export default function ContactFormOne() {
                     className=""
                     options={[
                       { value: "01", text: "Subject" },
-                      { value: "02", text: "Computer Science & Engineering" },
-                      { value: "03", text: "Electrical & Electronic Engineering" },
-                      { value: "04", text: "Textile Engineering" },
-                      { value: "05", text: "Pharmacy" },
-                      { value: "06", text: "Architecture" },
-                      { value: "07", text: "Law" },
-                      { value: "08", text: "Economics" },
-                      { value: "09", text: "English" },
-                      { value: "10", text: "Psychology" },
+                      { value: "02", text: "Admission Enquiry " },
+                      { value: "03", text: "Fee & Payment Enquiry" },
+                      { value: "04", text: "Academic Information" },
+                      { value: "05", text: "School Visit" },
+                      { value: "06", text: "Transport Enquiry" },
+                      { value: "07", text: "Activities & Sports" },
+                      { value: "08", text: "Career & Teaching Opportunities" },
+                      { value: "09", text: "General Enquiry" },
+                      { value: "10", text: "Other" },
                     ]}
                     defaultCurrent={0}
                     onChange={selectHandler}

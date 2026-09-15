@@ -16,7 +16,7 @@ export default function TeamOne({ style_2 }: TeamMember) {
             <div className="row align-items-end">
               <div className="col-lg-7 col-md-8">
                 <div className="it-team-section-title-box">
-                  <span className="it-section-subtitle yellow-style">Instructors</span>
+                  <span className="it-section-subtitle yellow-style">Our Faculty</span>
                   <h4 className="it-section-title">Meet Our Expert and {' '} <br /> Passionate {' '}
                     <span className="z-index-1">
                       Teaching {" "}
@@ -34,8 +34,8 @@ export default function TeamOne({ style_2 }: TeamMember) {
                 <div className="it-team-btn text-md-end">
                   <Link to="/team" className="it-btn-yellow theme-bg">
                     <span>
-                      <span className="text-1">All Instructors</span>
-                      <span className="text-2">All Instructors</span>
+                      <span className="text-1">Our Faculty</span>
+                      <span className="text-2">Our Faculty</span>
                     </span>
                     <i>
                       <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">

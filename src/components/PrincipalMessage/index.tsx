@@ -8,7 +8,7 @@ import ChooseFive from "@/components/choose/ChooseFive";
 import BackToTop from "@/components/common/BackToTop";
 import CountDownOne from "@/components/countdown/CountDownOne";
 // import CtaFive from "@/components/cta/CtaFive";
-// import TeamOne from "@/components/team/TeamOne";
+import TeamOne from "@/components/team/TeamOne";
 // import TestimonialOne from "@/components/testimonial/TestimonialOne";
 import HeaderOne from "@/layouts/headers/HeaderOne";
 import TestimonialThree from "@/components/testimonial/TestimonialThree";
@@ -28,7 +28,7 @@ export default function Aboutusv1() {
         <ChooseFive style_2={true} />
         <TestimonialThree  />
         {/* <BrandOne style_2={true} /> */}
-        {/* <TeamOne style_2={true}/> */}
+        <TeamOne style_2={true}/>
         {/* <CtaFive /> */}
       </main>
       <FooterThree/>

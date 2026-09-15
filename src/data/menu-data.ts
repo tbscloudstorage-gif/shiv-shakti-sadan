@@ -70,19 +70,25 @@ const menu_data: DataType[] = [
     id: 2,
     title: "About",
     link: "/about-us-v1",
-    mega_menu: false,
-    mega_menus: [
-      // {
-      //   title: "About",
-      //   menus: [
-      //     { link: "/about-us-v1", title: "Learning Vision" },
-      //     { link: "/about-us-v5", title: "Fitness Philosophy" },
-      //     { link: "/about-us-v4", title: "Path of Knowledge" },
-      //     { link: "/about-us-v3", title: "Wellness Journey" },
-      //     { link: "/about-us-v2", title: "Culinary Story" },
-      //     { link: "/team", title: "Instructor" },
-      //   ],
-      // },
+ has_dropdown: true,
+   sub_menus: [
+      { link: "/about-us-v1", title: "About School" },
+          { link: "/about-us-v5", title: "Chairperson's Message" },
+          { link: "/about-us-v4", title: "Principal's Message" },
+          { link: "/about-us-v3", title: "Our Faculty" },
+          { link: "/about-us-v2", title: "Awards & Honors" },
+    ],
+    // mega_menus: [
+    //   {
+    //     title: "About",
+    //     menus: [
+    //       { link: "/about-us-v1", title: "About School" },
+    //       { link: "/about-us-v5", title: "Chairperson's Message" },
+    //       { link: "/about-us-v4", title: "Principal's Message" },
+    //       { link: "/about-us-v3", title: "Our Faculty" },
+    //       { link: "/about-us-v2", title: "Awards & Honors" },
+    //     ],
+    //   },
       // {
       //   title: "Inner Pages",
       //   menus: [
@@ -116,14 +122,21 @@ const menu_data: DataType[] = [
       //     { link: "/sign-up", title: "Sign Up" },
       //   ],
       // },
-    ],
+    // ],
   },
 
   {
     id: 3,
-    title: "News & Event",
+    title: "Event",
     link: "/event-grid",
-    mega_menu: false,
+     has_dropdown: true,
+    sub_menus: [
+      { link: "/contact-us", title: "Upcoming Event" },
+      { link: "/contact-me", title: "Festival of the Year" },
+        { link: "/contact-us", title: "Magazines" },
+      { link: "/contact-me", title: "Media Coverage" },
+    ],
+    // mega_menu: false,
     // mega_menus: [
     //   {
     //     title: "Course Style",
@@ -168,24 +181,23 @@ const menu_data: DataType[] = [
     title: "Academics",
     link: "#",
     has_dropdown: false,
-    // sub_menus: [
-    //   { link: "/contact-us", title: "Contact Us" },
-    //   { link: "/contact-me", title: "Contact Me" },
-    // ],
+    sub_menus: [
+      { link: "/contact-us", title: "Contact Us" },
+      { link: "/contact-me", title: "Contact Me" },
+    ],
   },
 
   {
     id: 5,
-    title: "Blog",
-    link: "/blog-grid",
-    has_dropdown: false,
-    // sub_menus: [
-    //   { link: "/blog-grid", title: "Blog Grid" },
-    //   { link: "/blog-sidebar", title: "Blog Standard" },
-    //   { link: "/blog-details-left-sidebar", title: "Blog Details Left Sidebar" },
-    //   { link: "/blog-details-right-sidebar", title: "Blog Details Right Sidebar" },
-    //   { link: "/blog-details-without-sidebar", title: "Blog Details No Sidebar" },
-    // ],
+    title: "Admission",
+    link: "#",
+    has_dropdown: true,
+    sub_menus: [
+      { link: "/blog-grid", title: "Fee Structure" },
+      { link: "/", title: "Transport Facility" },
+      { link: "/", title: "FAQs" },
+      { link: "/", title: "Apply Now" },
+    ],
   },
 {
 id: 6,

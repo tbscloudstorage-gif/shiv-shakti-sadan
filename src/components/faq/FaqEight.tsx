@@ -11,7 +11,7 @@ export default function FaqEight() {
               data-wow-delay=".3s">
               <div className="it-faq-left">
                 <div className="it-faq-section-title-box mb-40">
-                  <span className="it-section-subtitle">Faq’s</span>
+                  <span className="it-section-subtitle">FAQs</span>
                   <h4 className="it-section-title">Frequently Asked <br />
                     <span className="z-index-1">
                       Questions
