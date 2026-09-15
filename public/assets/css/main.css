@@ -23073,7 +23073,7 @@ input[type=radio] {
 /*  36. stats css start
 /*----------------------------------------*/
 .it-stats-wrap {
-  padding: 50px 60px;
+  padding: 13px 27px;
   border-radius: 20px;
   background-color: var(--it-theme-1);
   box-shadow: 0 20px 30px 0 rgba(1, 6, 20, 0.1);
@@ -23084,7 +23084,7 @@ input[type=radio] {
   }
 }
 .it-stats-wrap span {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.7);
   font-family: var(--it-ff-spartan-semibold);
@@ -23150,7 +23150,7 @@ input[type=radio] {
   }
 }
 .it-stats-title {
-  font-size: 60px;
+  font-size: 43px;
   margin-bottom: 0;
   color: var(--it-common-white);
 }
