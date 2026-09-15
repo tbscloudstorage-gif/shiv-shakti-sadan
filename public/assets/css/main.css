@@ -23107,7 +23107,7 @@ input[type=radio] {
   content: "";
   position: absolute;
   top: 50%;
-  left: -19%;
+  left: -11%;
   height: 120%;
   width: 2px;
   transform: translateY(-50%);
