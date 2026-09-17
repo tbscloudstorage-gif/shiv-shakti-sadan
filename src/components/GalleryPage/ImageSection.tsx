@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 const images = [
   "/assets/img/breadcrumb/course-v1-breadcrumb.jpg",

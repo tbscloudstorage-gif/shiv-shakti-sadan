@@ -15,7 +15,7 @@ import GymTraining from "@/components/homes/gym-training";
 import Childcare from "@/components/homes/childcare";
 import FashionDesign from "@/components/homes/fashion-design";
 import YogaInstructor from "@/components/homes/yoga-instructor";
-
+import OurPhilosophy from "@/components/OurPhilosophy/index"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Aboutusv1 from "@/components/inner-pages/about-inner/about-us-v1";
@@ -30,9 +30,10 @@ import CareerDetails from "@/components/inner-pages/career/career-details";
 import EventGrid from "@/components/inner-pages/event/event-grid";
 import EventList from "@/components/inner-pages/event/event-list";
 import EventDetails from "@/components/inner-pages/event/event-details";
-import TeamDetails from "@/components/inner-pages/team-inner/team-details";
+// import TeamDetails from "@/components/inner-pages/team-inner/team-details";
 import Price from "@/components/inner-pages/price";
 import Faq from "@/components/inner-pages/faq";
+
 import PrivacyPolicy from "@/components/inner-pages/privacy-policy";
 import ZoomMetting from "@/components/inner-pages/zoom-metting";
 import Signin from "@/components/inner-pages/auth/sign-in";
@@ -49,7 +50,10 @@ import Coursesv4 from "@/components/inner-pages/courses/courses-v4";
 import Coursesv5 from "@/components/inner-pages/courses/courses-v5";
 import Coursesv6 from "@/components/inner-pages/courses/courses-v6";
 import Coursesv7 from "@/components/inner-pages/courses/courses-v7";
-import GalleryPage from "@/components/GalleryPage/index.tsx"
+import GalleryPage from "@/components/GalleryPage/index.tsx";
+import FeeStructure from "@/components/FeeStructure/index.tsx"
+import OurFaculty from "@/components/OurFaculty/index.tsx"
+import Academics from "@/components/Academics/index.tsx"
 import Coursesv8 from "@/components/inner-pages/courses/courses-v8";
 import CoursesListSidebar from "@/components/inner-pages/courses/courses-list-sidebar";
 import CoursesOpenFilter from "@/components/inner-pages/courses/courses-open-filter";
@@ -67,6 +71,8 @@ import BlogDetailsWithoutSidebar from "@/components/inner-pages/blog/blog-detail
 import Contactus from "@/components/contacts/contact-us";
 import Contactme from "@/components/contacts/contact-me";
 import ErrorPage from "@/components/inner-pages/error";
+import MondatoryDisclosure from "@/components/MondatoryDisclosure/index"
+import PrinicipalMessage from "@/components/PrincipalMessage/index"
 
 const router = createBrowserRouter([
     { path: "/", element: <University /> },
@@ -74,6 +80,11 @@ const router = createBrowserRouter([
   { path: "/online-courses", element: <OnlineCourses /> },
   { path: "/education", element:  <GeneralEducation /> },
   { path: "/kindergarten", element: <Kindergarten /> },
+    { path: "/fee-structure", element: <FeeStructure /> },
+    { path: "/mondatory-public-disclosure", element: <MondatoryDisclosure /> },
+    
+    { path: "/academics", element: <Academics /> },
+
   { path: "/language-academy", element: <LanguageAcademy /> },
   { path: "/cookup-academy", element: <CookupAcademy /> },
   { path: "/books-shop", element: <BooksShop /> },
@@ -87,7 +98,7 @@ const router = createBrowserRouter([
   { path: "/yoga-instructor", element: <YogaInstructor /> },
 
 
-  { path: "/about-us-v1", element: <Aboutusv1 /> },
+  { path: "/about-school", element: <Aboutusv1 /> },
   { path: "/about-us-v5", element: <Aboutusv5 /> },
   { path: "/about-us-v4", element: <Aboutusv4 /> },
   { path: "/about-us-v3", element: <Aboutusv3 /> },
@@ -99,7 +110,10 @@ const router = createBrowserRouter([
   { path: "/event-grid", element: <EventGrid /> },
   { path: "/event-list", element: <EventList /> },
   { path: "/event-details", element: <EventDetails /> },
-  { path: "/team-details", element: <TeamDetails /> },
+  { path: "/our-philosophy", element: <OurPhilosophy /> },
+  { path: "/prinicipal-message", element: <PrinicipalMessage/> },
+
+  { path: "/our-faculty", element: <OurFaculty /> },
   { path: "/price", element: <Price /> },
   { path: "/faq", element: <Faq /> },
   { path: "/privacy-policy", element: <PrivacyPolicy /> },

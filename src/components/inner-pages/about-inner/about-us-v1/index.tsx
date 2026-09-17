@@ -22,7 +22,7 @@ export default function Aboutusv1() {
       <HeaderOne
        />
       <main>
-        <Breadcrumb title="About us v1" subtitle="About us v1" breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
+        <Breadcrumb title="About School " subtitle="About School " breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
         <AboutOne />
         <CountDownOne />
         <ChooseFive style_2={true} />

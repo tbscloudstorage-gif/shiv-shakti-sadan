@@ -69,14 +69,17 @@ const menu_data: DataType[] = [
   {
     id: 2,
     title: "About",
-    link: "/about-us-v1",
+    link: "#",
  has_dropdown: true,
    sub_menus: [
-      { link: "/about-us-v1", title: "About School" },
-          { link: "/about-us-v5", title: "Chairperson's Message" },
-          { link: "/about-us-v4", title: "Principal's Message" },
-          { link: "/about-us-v3", title: "Our Faculty" },
-          { link: "/about-us-v2", title: "Awards & Honors" },
+      { link: "/about-school", title: "About School" },
+          { link: "/prinicipal-message", title: "Principal's Message" },
+                    { link: "/our-philosophy", title: "Our Philosophy" },
+                              { link: "/our-faculty", title: "Our Faculty" },
+          { link: "/awards-&-honors", title: "Awards & Honors" },
+
+                    { link: "/mondatory-public-disclosure", title: "Mandatory Public Disclosure" },
+
     ],
     // mega_menus: [
     //   {
@@ -128,11 +131,10 @@ const menu_data: DataType[] = [
   {
     id: 3,
     title: "Event",
-    link: "/event-grid",
+    link: "#",
      has_dropdown: true,
     sub_menus: [
-      { link: "/contact-us", title: "Upcoming Event" },
-      { link: "/contact-me", title: "Festival of the Year" },
+      { link: "/event-grid", title: "Upcoming Event" },
         { link: "/contact-us", title: "Magazines" },
       { link: "/contact-me", title: "Media Coverage" },
     ],
@@ -179,7 +181,7 @@ const menu_data: DataType[] = [
 {
     id: 4,
     title: "Academics",
-    link: "#",
+    link: "/academics",
     has_dropdown: false,
     sub_menus: [
       { link: "/contact-us", title: "Contact Us" },
@@ -193,9 +195,9 @@ const menu_data: DataType[] = [
     link: "#",
     has_dropdown: true,
     sub_menus: [
-      { link: "/blog-grid", title: "Fee Structure" },
+      { link: "/fee-structure", title: "Fee Structure" },
       { link: "/", title: "Transport Facility" },
-      { link: "/", title: "FAQs" },
+      { link: "/faq", title: "FAQs" },
       { link: "/", title: "Apply Now" },
     ],
   },

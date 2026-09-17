@@ -459,7 +459,7 @@ export default function EventGridArea() {
               </div>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col-12">
               <div className="it-pagination text-center mt-45">
                 <nav>
@@ -490,7 +490,7 @@ export default function EventGridArea() {
                 </nav>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* <!-- event-area-end --> */}

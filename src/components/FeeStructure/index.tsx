@@ -13,7 +13,7 @@ import BackToTop from "@/components/common/BackToTop";
 import FooterThree from "@/layouts/footers/FooterThree";
 import HeaderOne from "@/layouts/headers/HeaderOne";
 // import TestimonialThree from "@/components/testimonial/TestimonialThree";
-import ImageSection from "@/components/GalleryPage/ImageSection";
+import TuitionThree from "../tuition/TuitionThree";
 
 
 
@@ -23,8 +23,9 @@ export default function Aboutusv1() {
       <HeaderOne
        />
       <main>
-        <Breadcrumb title="Gallery" subtitle="Gallery" breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
-      <ImageSection/>
+        <Breadcrumb title="Fee Structure" subtitle="Fee Structure" breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
+    
+      <TuitionThree/>
       </main>
       <FooterThree/>
       <BackToTop />
