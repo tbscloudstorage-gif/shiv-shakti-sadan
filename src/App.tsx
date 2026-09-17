@@ -8,6 +8,7 @@ import Kindergarten from "@/components/homes/kindergarten";
 import LanguageAcademy from "@/components/homes/language-academy";
 import CookupAcademy from "@/components/homes/cookup-academy";
 import BooksShop from "@/components/homes/books-shop";
+import Magazines from "@/components/Magazines"
 import MusicPlatform from "@/components/homes/music-platform";
 import QuranLearning from "@/components/homes/quran-learning";
 import InstructorShowcase from "@/components/homes/instructor-showcase";
@@ -43,6 +44,7 @@ import ShopList from "@/components/inner-pages/shop/shop-list";
 import ShopDetails from "@/components/inner-pages/shop/shop-details";
 import Cart from "@/components/inner-pages/shop/cart";
 import Checkout from "@/components/inner-pages/shop/checkout";
+import Alumni from "@/components/Alumni/index.tsx"
 import Coursesv1 from "@/components/inner-pages/courses/courses-v1";
 import Coursesv2 from "@/components/inner-pages/courses/courses-v2";
 import Coursesv3 from "@/components/inner-pages/courses/courses-v3";
@@ -84,6 +86,8 @@ const router = createBrowserRouter([
     { path: "/mondatory-public-disclosure", element: <MondatoryDisclosure /> },
     
     { path: "/academics", element: <Academics /> },
+    { path: "/magazines", element: <Magazines /> },
+    { path: "/our-alumni", element: <Alumni /> },
 
   { path: "/language-academy", element: <LanguageAcademy /> },
   { path: "/cookup-academy", element: <CookupAcademy /> },

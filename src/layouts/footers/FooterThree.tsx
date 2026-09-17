@@ -12,25 +12,33 @@ export default function FooterThree() {
             <img className="it-footer-shape-2" data-parallax='{"y": -200, "smoothness": 30}' src="assets/img/shape/footer-3-2.png" alt="" />
             <div className="it-footer-border"><span></span></div>
             <div className="container-fluid d-flex justify-content-center">
-              <div className="row">
-                <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 mb-50 wow itfadeUp" data-wow-duration=".9s"
+              <div className="row row-cols-md-5 row-cols-sm-2 ">
+                <div className=" mb-50 wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".5s">
                   <div className="it-footer-widget it-footer-col-1-2">
-                    <h4 className="it-footer-widget-title">About Us</h4>
+                    <h4 className="it-footer-widget-title">About </h4>
                     <div className="it-footer-widget-menu">
                       <ul>
-                        <li><a href="/">Introduction</a></li>
-                        <li><a href="/about-us-v1">Infrastructure
+                        <li><a href="/about-school">About School</a></li>
+                        <li><a href="/principal-message">Principal's Message
 </a></li>
-                        <li><a href="/event-grid">Affiliations</a></li>
-                        <li><a href="blog-grid">Awards & Honors
+                        <li><a href="/our-philosophy">Our Philosophy</a></li>
+                                                <li><a href="/our-faculty">Our Faculty</a></li>
+
+                        <li><a href="/awards-&-honors">Awards & Honors
+</a></li>
+                        <li><a href="/our-alumni">Our Alumni
+</a></li>
+
+           <li><a href="/mondatory-public-disclosure">Mandatory Public Disclosure
+
 </a></li>
                       </ul>
                     </div>
                   </div>
                 </div>
               
-               <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 mb-50 wow itfadeUp" data-wow-duration=".9s"
+               <div className=" mb-50 wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".5s">
                   <div className="it-footer-widget it-footer-col-1-2">
                     <h4 className="it-footer-widget-title">Academics</h4>
@@ -47,7 +55,7 @@ export default function FooterThree() {
                     </div>
                   </div>
                 </div>
-                 <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 mb-50 wow itfadeUp" data-wow-duration=".9s"
+                 {/* <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 mb-50 wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".5s">
                   <div className="it-footer-widget it-footer-col-1-2">
                     <h4 className="it-footer-widget-title">Community</h4>
@@ -60,44 +68,42 @@ export default function FooterThree() {
                       </ul>
                     </div>
                   </div>
-                </div>
-                 <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 mb-50 wow itfadeUp" data-wow-duration=".9s"
+                </div> */}
+                 <div className=" mb-50 wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".5s">
                   <div className="it-footer-widget it-footer-col-1-2">
                     <h4 className="it-footer-widget-title">News & Event</h4>
                     <div className="it-footer-widget-menu">
                       <ul>
-                        <li><a href="/">Newsfeed</a></li>
-                        <li><a href="/about-us-v1">Upcoming Event</a></li>
-                        <li><a href="/event-grid">Festival of the year</a></li>
-                        <li><a href="blog-grid">Magazine</a></li>
-                                                <li><a href="blog-grid">Media Coverage</a></li>
+                        <li><a href="/event-grid">Upcoming Event</a></li>
+                        <li><a href="/magazines">Magazines</a></li>
+                                                <li><a href="/media-coverage">Media Coverage</a></li>
 
                       </ul>
                     </div>
                   </div>
                 </div>
-                  <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 mb-50 wow itfadeUp" data-wow-duration=".9s"
+                  <div className=" mb-50 wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".5s">
                   <div className="it-footer-widget it-footer-col-1-2">
                     <h4 className="it-footer-widget-title">Admissions</h4>
                     <div className="it-footer-widget-menu">
                       <ul>
-                        <li><a href="/">Fee Structure</a></li>
+                        <li><a href="/fee-structure">Fee Structure</a></li>
                         <li><a href="/about-us-v1">Transport Facility</a></li>
-                        <li><a href="/event-grid">FAQs</a></li>
+                        <li><a href="/faq">FAQs</a></li>
                         <li><a href="blog-grid">Apply Now</a></li>
                       </ul>
                     </div>
                   </div>
                 </div>
-                  <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 mb-50 wow itfadeUp" data-wow-duration=".9s"
+                  <div className=" mb-50 wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".5s">
                   <div className="it-footer-widget it-footer-col-1-2">
-                    <h4 className="it-footer-widget-title">Contact US</h4>
+                    <h4 className="it-footer-widget-title">Contact Us</h4>
                     <div className="it-footer-widget-menu">
                       <ul>
-                        <li><a href="/">Contact</a></li>
+                        <li><a href="/contact-us">Contact</a></li>
                         <li><a href="/about-us-v1">Apply Now</a></li>
                         <li><a href="/event-grid">Careers</a></li>
                       </ul>

@@ -77,6 +77,9 @@ const menu_data: DataType[] = [
                     { link: "/our-philosophy", title: "Our Philosophy" },
                               { link: "/our-faculty", title: "Our Faculty" },
           { link: "/awards-&-honors", title: "Awards & Honors" },
+                    { link: "/our-alumni", title: "Our Alumni" },
+
+
 
                     { link: "/mondatory-public-disclosure", title: "Mandatory Public Disclosure" },
 
@@ -135,7 +138,7 @@ const menu_data: DataType[] = [
      has_dropdown: true,
     sub_menus: [
       { link: "/event-grid", title: "Upcoming Event" },
-        { link: "/contact-us", title: "Magazines" },
+        { link: "/magazines", title: "Magazines" },
       { link: "/contact-me", title: "Media Coverage" },
     ],
     // mega_menu: false,
